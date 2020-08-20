@@ -1,0 +1,36 @@
+body {
+    --stripe: lightgray;
+    --bg: gray;
+  
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 50%) -100px 0,
+      linear-gradient(225deg, var(--bg) 25%, transparent 50%) -100px 0,
+      linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+      linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: var(--stripe);
+}
+.nav-link {
+    float: right;
+}
+.card {
+    padding: 1%;
+    margin: 1%;
+    background-color: lightgray;
+}
+.card-header{
+    color: white;
+    background-color: purple;
+}
+.row {
+    margin: 0;
+}
+.img-thumbnail{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.btn {
+    color: white;
+    background-color: darkgreen;
+}
+
