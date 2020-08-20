@@ -7,13 +7,14 @@
     <title>Brian Toney</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <a class="navbar-brand" href="#">Brian Toney</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,62 +35,64 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-9 col-xs-12">
-                <div class="card text-center">
-                    <div class="row">
-                        <div class="col-12">
-                            <h5 class="card-header">About Me</h5>
-                            <div class="card-body">
-                                <picture>
-                                    <source srcset="img/WIN_20200727_09_49_24_Pro.jpg" type="image/svg+xml">
-                                    <img src="img/WIN_20200727_09_49_24_Pro.jpg" class="img-fluid img-thumbnail"
-                                        alt="Image of Brian">
-                                </picture>
-                                <p class="card-text">Hello, my name is Brian Toney. I was born and raised in Bayville,
-                                    New York.
-                                    I
-                                    have a
-                                    Bachelors degree in Tourism Management from the Suny College at Brockport. For the
-                                    past few
-                                    years I have
-                                    been traveling the country with my wife, Kate, and dog, Domino. I have lived in
-                                    Hawaii,
-                                    California,
-                                    Colorado, and now we are in Maryland.</p>
-                                <p class="card-text"> I have a strong passion for competitive sports and gaming. I am
-                                    currently
-                                    enrolled in a
-                                    coding bootcamp in
-                                    order to create a better lifestyle for my family. I am also hoping that I can make
-                                    my way somehow into the gaming industry. The pandemic has made me realize how
-                                    important a
-                                    stable
-                                    and
-                                    reliable job can be. Coming from a sales background I also enjoy talking to
-                                    people, I am usually the guy in line that starts a conversation with complete
-                                    strangers
-                                    around
-                                    me.</p>
-                                <p class="card-text"> My hobbies are hanging out with my family, gaming and sports. The
-                                    genre of
-                                    games that I
-                                    enjoy are first
-                                    person shooters, survival games, and battle royale games. The sports I enjoy are
-                                    baseball,
-                                    football,
-                                    lacrosse, soccer and golf. I also enjoy going on hikes/walking with Kate and Domino.
-                                    Traveling
-                                    all over the
-                                    country has helped me see the beauty of nature and being outside.</p>
-                            </div>
-                        </div>
+            <div class="col-lg-9 col-md-8 col-xs-12">
+                <div class="card">
+                    <h5 class="card-header">About Me</h5>
+                    <div class="card-body">
+                        <picture>
+                            <img src="img/WIN_20200727_09_49_24_Pro.jpg" class="float-left"
+                                alt="Image of Brian">
+                        </picture>
+                        <p class="card-text">Hello, my name is Brian Toney. I was born and raised in Bayville,
+                            New York.
+                            I
+                            have a
+                            Bachelors degree in Tourism Management from the Suny College at Brockport. For the
+                            past few
+                            years I have
+                            been traveling the country with my wife, Kate, and dog, Domino. I have lived in
+                            Hawaii,
+                            California,
+                            Colorado, and now we are in Maryland.</p>
+                        <p class="card-text"> I have a strong passion for competitive sports and gaming. I am
+                            currently
+                            enrolled in a
+                            coding bootcamp in
+                            order to create a better lifestyle for my family. I am also hoping that I can make
+                            my way somehow into the gaming industry. The pandemic has made me realize how
+                            important a
+                            stable
+                            and
+                            reliable job can be. Coming from a sales background I also enjoy talking to
+                            people, I am usually the guy in line that starts a conversation with complete
+                            strangers
+                            around
+                            me.</p>
+                        <p class="card-text"> My hobbies are hanging out with my family, gaming and sports. The
+                            genre of
+                            games that I
+                            enjoy are first
+                            person shooters, survival games, and battle royale games. The sports I enjoy are
+                            baseball,
+                            football,
+                            lacrosse, soccer and golf. I also enjoy going on hikes/walking with Kate and Domino.
+                            Traveling
+                            all over the
+                            country has helped me see the beauty of nature and being outside.</p>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-6 col-md-3"></div>
         </div>
     </main>
+    <footer class="footer text-center fixed-bottom">
+        <ul class="social-media">
+            <li><a href="https://www.linkedin.com/in/brian-toney-978a891a7/" class="fa fa-linkedin"></a></li>
+        </ul>
+        </div>
+    </footer>
 
     <!-- Importing jquery, popper, and javascript. -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
