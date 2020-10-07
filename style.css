@@ -24,6 +24,10 @@ p {
   font-size: larger;
 }
 
+.resume {
+  font-size: larger;
+}
+
 /* Nav links set to the right */
 .nav-link {
     float: right;
