@@ -7,6 +7,6 @@ $("#code-quiz").click(function () {
 $("#daily-scheduler").click(function () {
   window.open("https://btoney1988.github.io/work_day_scheduler/");
 });
-$("#sports-travel").click(function () {
-  window.open("https://btoney1988.github.io/sports_travel/");
+$("#eat-da-burger").click(function () {
+  window.open("https://glacial-mountain-61312.herokuapp.com/");
 });
