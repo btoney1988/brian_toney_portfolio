@@ -6,19 +6,18 @@
 
 /* Background design and adjustments */
 body {
-    padding-top: 80px;
-    padding-bottom: 75px;
-    /* Credit to "https://css-tricks.com/a-few-background-patterns-sites/" */
-    --stripe: lightgray;
-    --bg: gray;
-  
-    background: linear-gradient(135deg, var(--bg) 25%, transparent 50%) -100px 0,
-      linear-gradient(225deg, var(--bg) 25%, transparent 50%) -100px 0,
-      linear-gradient(315deg, var(--bg) 25%, transparent 25%),
-      linear-gradient(45deg, var(--bg) 25%, transparent 25%);
-    background-size: 100px 100px;
-    background-color: var(--stripe);
-    /* Credit to "https://css-tricks.com/a-few-background-patterns-sites/" */
+  padding-top: 80px;
+  padding-bottom: 75px;
+  /* Credit to "https://css-tricks.com/a-few-background-patterns-sites/" */
+  --stripe: lightgray;
+  --bg: gray;
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 50%) -100px 0,
+  linear-gradient(225deg, var(--bg) 25%, transparent 50%) -100px 0,
+  linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+  linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
+  /* Credit to "https://css-tricks.com/a-few-background-patterns-sites/" */
 }
 p {
   font-size: larger;
@@ -29,27 +28,27 @@ p {
 
 /* Nav links set to the right */
 .nav-link {
-    float: right;
+  float: right;
 }
 /* Card design and adjustments */
 .card {
-    padding: 3%;
-    margin: 0%;
-    background-color: lightgray;
+  padding: 3%;
+  margin: 0%;
+  background-color: lightgray;
 }
 /* Header color changes */
 .card-header{
-    color: white;
-    background-color: purple;
+  color: white;
+  background-color: purple;
 }
 
 /* Image adjustments */
 .float-left {
-    max-width: 50%;
-    margin-right: 2%;
+  max-width: 50%;
+  margin-right: 2%;
 }
 .img-thumbnail {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 .btn {
   color: #343a40;
@@ -57,25 +56,25 @@ p {
 }
 /* Footer adjustments */
 .footer {
-    margin-top: 4%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #343a40;
+  margin-top: 4%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #343a40;
 }
 /* Social media icon styling */
 .social-media{
-    list-style: none;
-    width: 50%;
+  list-style: none;
+  width: 50%;
 }
 .fa {
-    padding: 5px;
-    font-size: 20px;
-    width: 30px;
-    text-decoration: none;
-    margin: 4px 2px;
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-decoration: none;
+  margin: 4px 2px;
 }
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 .col-4 {
   display: flex;
@@ -83,13 +82,13 @@ p {
 }
 /* Linkedin */
 .fa-linkedin {
-    background: #007bb5;
-    color: white;
+  background: #007bb5;
+  color: white;
   }
 /* Gmail */
 .fa-google {
-    background: #dd4b39;
-    color: white;
+  background: #dd4b39;
+  color: white;
   }
 /* Github */
 .fa-github {
@@ -97,5 +96,14 @@ p {
   color: black;
   }
 .contact-info{
-    min-width: 232px;
+  min-width: 232px;
+}
+#heroku {
+  background-color: lightgray;
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-decoration: none;
+  margin: 4px 2px;
 }
